@@ -38,7 +38,7 @@ func main() {
 			convertToCelsius(originValue)
 		}
 
-		_, err := fmt.Scanln(&shouldConvertAgain)
+		_, err = fmt.Scanln(&shouldConvertAgain)
 		if err != nil {
 			printError(errReadingInput)
 		}
